@@ -20,7 +20,6 @@ $choco_apps = @(
     "filezilla",
     "googlechrome",
     "microsoft-edge",
-    "fslogix",
     "msvisualcplusplus2012-redist",
     "msvisualcplusplus2013-redist",
     "vcredist140",
