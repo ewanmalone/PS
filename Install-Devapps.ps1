@@ -1,5 +1,5 @@
 ################################################################################
-##  File:  Install-AVDapps.ps1
+##  File:  Install-DEVapps.ps1
 ##  Desc:  Choco installs for AVD applications
 ################################################################################
 Write-Output "Installing AVD Apps no additional parameters"
