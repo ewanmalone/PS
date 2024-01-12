@@ -16,6 +16,7 @@ $choco_apps = @(
     "visualstudio2022-workload-data",
     "visualstudio2022professional",
     "vscode",
+    "sql-server-2022",
     "winmerge",
     "7zip", 
     "adobereader", 
