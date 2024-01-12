@@ -52,5 +52,5 @@ foreach ($app in $choco_apps) {
     }
 }
 
-Write-Output "Installing AVD DevApps with additional parameters"
-choco install -y oracle-sql-developer --params="'/Username:uitem@leeds.ac.uk /Password:SuperPassword123!'"
+#Write-Output "Installing AVD DevApps with additional parameters"
+#choco install -y oracle-sql-developer --params="'/Username:uitem@leeds.ac.uk /Password:SuperPassword123!'"
