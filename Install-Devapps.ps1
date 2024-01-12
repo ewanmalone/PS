@@ -2,13 +2,12 @@
 ##  File:  Install-DEVapps.ps1
 ##  Desc:  Choco installs for AVD applications
 ################################################################################
-Write-Output "Installing AVD Apps no additional parameters"
+Write-Output "Installing AVD DevApps no additional parameters"
 $uninstall = false
 $choco_apps = @(
     "git",
     "gitextensions",
     "oraclejdk",
-    "oracle-sql-developer --params="'/Username:uitem@leeds.ac.uk /Password:SuperPassword123!",
     "sql-server-management-studio",
     "visualstudio2022-workload-manageddesktop",
     "visualstudio2022-workload-netweb",
@@ -52,3 +51,6 @@ foreach ($app in $choco_apps) {
         }
     }
 }
+
+Write-Output "Installing AVD DevApps with additional parameters"
+choco install -y oracle-sql-developer --params="'/Username:uitem@leeds.ac.uk /Password:SuperPassword123!'"
