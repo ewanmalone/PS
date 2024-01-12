@@ -8,7 +8,7 @@ $choco_apps = @(
     "git",
     "gitextensions",
     "oraclejdk",
-    "oracle-sql-developer",
+    "oracle-sql-developer --params="'/Username:uitem@leeds.ac.uk /Password:SuperPassword123!",
     "sql-server-management-studio",
     "visualstudio2022-workload-manageddesktop",
     "visualstudio2022-workload-netweb",
