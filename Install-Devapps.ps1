@@ -12,7 +12,6 @@ $choco_apps = @(
     "sql-server-management-studio",
     "vscode",
     "visualstudio2022professional",
-    "vscode",
     "winmerge",
     "7zip", 
     "adobereader", 
